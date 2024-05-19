@@ -22,7 +22,9 @@
     "test:cov": "NODE_ENV=test jest --coverage",
     "test:watch": "NODE_ENV=test jest --watch",
     "predeploy": "npm run build-gh-pages",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "config": {
     "commitizen": {
@@ -91,7 +93,8 @@
     "react-sortable-hoc": "^1.9.1",
     "react-tabs": "^3.0.0",
     "styled-jsx": "^3.2.1",
-    "webfontloader": "^1.6.28"
+    "webfontloader": "^1.6.28",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -156,5 +159,6 @@
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.1",
     "xhr-mock": "^2.3.2"
-  }
+  },
+  "snyk": true
 }
