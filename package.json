@@ -74,7 +74,7 @@
     "Theme"
   ],
   "dependencies": {
-    "@svgr/webpack": "^4.3.3",
+    "@svgr/webpack": "^7.0.0",
     "array-move": "^2.1.0",
     "common-tags": "^1.8.0",
     "highlight.js": "^9.15.6",
@@ -84,13 +84,13 @@
     "lodash.set": "^4.3.2",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
-    "react-color": "^2.17.0",
+    "react-color": "^2.19.1",
     "react-dom": "^16.4.2",
-    "react-lowlight": "^2.0.0",
-    "react-select": "^3.0.4",
+    "react-lowlight": "^3.0.0",
+    "react-select": "^4.0.0",
     "react-sortable-hoc": "^1.9.1",
     "react-tabs": "^3.0.0",
-    "styled-jsx": "^3.2.1",
+    "styled-jsx": "^5.0.0",
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
